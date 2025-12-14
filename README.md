@@ -2,7 +2,6 @@
 
 A **Mini Offline Wallet App** built using **React Native CLI + TypeScript**, focused on **offline-first architecture, payment simulation, background sync, and crash-safe transaction handling**.
 
-This project is intentionally **logic-heavy**, not UI-focused, and is designed to demonstrate **production-ready React Native engineering**.
 
 ---
 
@@ -36,12 +35,12 @@ This project is intentionally **logic-heavy**, not UI-focused, and is designed t
 
 ```txt
 src/
- ├── api/          # Mock APIs (auth, payment)
- ├── storage/      # SQLite & secure storage
- ├── store/        # Redux store & slices
- ├── services/     # Payment engine & sync logic
- ├── hooks/        # Custom hooks
- ├── screens/      # App screens
- ├── components/   # Reusable components
- ├── native/       # Native module bindings
- └── utils/        # Helpers & constants
+ ├── api/         
+ ├── storage/      
+ ├── store/        
+ ├── services/    
+ ├── hooks/       
+ ├── screens/     
+ ├── components/  
+ ├── native/      
+ └── utils/     
